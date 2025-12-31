@@ -27,3 +27,76 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Answer */
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+  /* justify-content: space-between; */
+
+}
+
+.sidebar {
+  flex-shrink: 0; 
+  /* width: 300px; */
+  padding: 16px;
+  /* border: 5px solid black; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+li {
+  /* list-style: none; */
+  margin-bottom: 16px;
+}
+
+ul {
+  /* border: 3px solid black; */
+  /* padding: 16px; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  /* justify-content: left; */
+  /* border: 3px solid black; */
+  
+}
+
+.cards > .card {
+  padding: 16px;
+  /* width: 300px; */
+  width: 250px;
+  /* height: 300px; */
+
+}
